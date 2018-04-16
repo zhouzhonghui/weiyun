@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/fly-yun.iml" filepath="$PROJECT_DIR$/fly-yun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fly-yun-api/fly-yun-api.iml" filepath="$PROJECT_DIR$/fly-yun-api/fly-yun-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fly-yun-common/fly-yun-common.iml" filepath="$PROJECT_DIR$/fly-yun-common/fly-yun-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fly-yun-config/fly-yun-config.iml" filepath="$PROJECT_DIR$/fly-yun-config/fly-yun-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fly-yun-consumer/fly-yun-consumer.iml" filepath="$PROJECT_DIR$/fly-yun-consumer/fly-yun-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fly-yun-database/fly-yun-database.iml" filepath="$PROJECT_DIR$/fly-yun-database/fly-yun-database.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fly-yun-oauth2/fly-yun-oauth2.iml" filepath="$PROJECT_DIR$/fly-yun-oauth2/fly-yun-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fly-yun-provider/fly-yun-provider.iml" filepath="$PROJECT_DIR$/fly-yun-provider/fly-yun-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fly-yun-redis/fly-yun-redis.iml" filepath="$PROJECT_DIR$/fly-yun-redis/fly-yun-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fly-yun-shiro/fly-yun-shiro.iml" filepath="$PROJECT_DIR$/fly-yun-shiro/fly-yun-shiro.iml" />
+    </modules>
+  </component>
+</project>

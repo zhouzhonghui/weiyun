@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="fly-yun-api" />
+        <module name="fly-yun-common" />
+        <module name="fly-yun-config" />
+        <module name="fly-yun-consumer" />
+        <module name="fly-yun-database" />
+        <module name="fly-yun-oauth2" />
+        <module name="fly-yun-provider" />
+        <module name="fly-yun-redis" />
+        <module name="fly-yun-shiro" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="fly-yun" target="1.8" />
+      <module name="fly-yun-api" target="1.8" />
+      <module name="fly-yun-common" target="1.8" />
+      <module name="fly-yun-config" target="1.8" />
+      <module name="fly-yun-consumer" target="1.8" />
+      <module name="fly-yun-database" target="1.8" />
+      <module name="fly-yun-oauth2" target="1.8" />
+      <module name="fly-yun-provider" target="1.8" />
+      <module name="fly-yun-redis" target="1.8" />
+      <module name="fly-yun-shiro" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="a8850f73-344a-4157-b369-da857eaf9475" name="Default" comment="资讯 查看详情">
+      <change afterPath="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/QuotesExchangeRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/QuotesTransactionReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/QuotesTransactionRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly-yun-common/src/main/java/cn/fly/yun/utils" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/interceptor/ControllerInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/utils" afterDir="true" />
+      <change afterPath="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/utils/DateTimeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/utils/ThreadLocalUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/domain/QuotesExchange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/domain/QuotesExchangeExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/domain/QuotesTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/domain/QuotesTransactionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/mapper/QuotesExchangeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/mapper/QuotesTransactionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly-yun-provider/src/main/resources/mapper/QuotesExchangeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly-yun-provider/src/main/resources/mapper/QuotesTransactionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fly-yun-redis/fly-yun-redis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/service/NewsInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/service/NewsInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-yun-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fly-yun-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/conf/WebConf.java" beforeDir="false" afterPath="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/conf/WebConf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/exceptions/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/exceptions/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/interceptor/HeaderInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/interceptor/HeaderInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-yun-consumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fly-yun-consumer/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-yun-consumer/src/main/java/cn/fly/yun/client/controller/NewsInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fly-yun-consumer/src/main/java/cn/fly/yun/client/controller/NewsInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-yun-consumer/src/main/java/cn/fly/yun/client/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fly-yun-consumer/src/main/java/cn/fly/yun/client/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-yun-consumer/src/main/java/cn/fly/yun/client/utils/RedisConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-yun-consumer/src/main/resources/i18n/rop/error_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/fly-yun-consumer/src/main/resources/i18n/rop/error_zh_CN.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-yun-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fly-yun-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/service/impl/NewsInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/service/impl/NewsInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-yun-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fly-yun-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fly-yun-redis/src/main/java/cn/fly/yun/handle/RedisHandle.java" beforeDir="false" afterPath="$PROJECT_DIR$/fly-yun-redis/src/main/java/cn/fly/yun/handle/RedisHandle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/fly-yun-provider/target/" />
+    <ignored path="$PROJECT_DIR$/fly-yun-oauth2/target/" />
+    <ignored path="$PROJECT_DIR$/fly-yun-api/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/fly-yun-database/target/" />
+    <ignored path="$PROJECT_DIR$/fly-yun-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/fly-yun-common/target/" />
+    <ignored path="$PROJECT_DIR$/fly-yun-config/target/" />
+    <ignored path="$PROJECT_DIR$/fly-yun-shiro/target/" />
+    <ignored path="$PROJECT_DIR$/fly-yun-redis/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fly-yun-config/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedisConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fly-yun-redis/src/main/java/cn/fly/yun/config/RedisConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fly-yun-provider/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>druid.version</find>
+      <find>springboot.mybatis.version</find>
+      <find>mysql.version</find>
+      <find>springboot.version</find>
+      <find>pagehelper.version</find>
+      <find>mybatis.version</find>
+      <find>mybatis-spring.version</find>
+      <find>ShiroConfig.</find>
+      <find>ShiroConfig</find>
+      <find>Oauth2ErrorResponse</find>
+      <find>log</find>
+      <find>api</find>
+      <find>sl4j</find>
+      <find>slf4j</find>
+      <find>1.2.8</find>
+      <find>increment</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/GetNewsListRes.java" />
+        <option value="$PROJECT_DIR$/fly-yun-common/src/main/java/cn/fly/yun/base/PageBean.java" />
+        <option value="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/NewsAttachment.java" />
+        <option value="$PROJECT_DIR$/fly-yun-common/src/main/java/cn/fly/yun/base/BaseDomain.java" />
+        <option value="$PROJECT_DIR$/fly-yun-common/src/main/java/cn/fly/yun/base/BaseReq.java" />
+        <option value="$PROJECT_DIR$/fly-yun-api/pom.xml" />
+        <option value="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/NewsInfoDomain.java" />
+        <option value="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/GetNewsListReq.java" />
+        <option value="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/ThumbUpRes.java" />
+        <option value="$PROJECT_DIR$/fly-yun-provider/src/main/script/assembly.xml" />
+        <option value="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/exceptions/response/BusinessErrorResponse.java" />
+        <option value="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/exceptions/response/Oauth2ErrorResponse.java" />
+        <option value="$PROJECT_DIR$/fly-yun-common/src/main/java/cn/fly/yun/base/BaseRes.java" />
+        <option value="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/ThumbUpReq.java" />
+        <option value="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/ThumbDownReq.java" />
+        <option value="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/ThumbDownRes.java" />
+        <option value="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/GetDetailForArticleReq.java" />
+        <option value="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/GetDetailForArticleRes.java" />
+        <option value="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/GetDetailForNewsReq.java" />
+        <option value="$PROJECT_DIR$/fly-yun-provider/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/fly-yun-consumer/src/main/java/cn/fly/yun/client/refence/Client.java" />
+        <option value="$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/service/impl/HelloServiceImpl.java" />
+        <option value="$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/service/impl/Server.java" />
+        <option value="$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/conf/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/GetDetailForNewsRes.java" />
+        <option value="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/QuotesTransactionReq.java" />
+        <option value="$PROJECT_DIR$/fly-yun-consumer/src/main/java/cn/fly/yun/client/controller/NewsInfoController.java" />
+        <option value="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/service/NewsInfoService.java" />
+        <option value="$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/mapper/QuotesExchangeMapper.java" />
+        <option value="$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/mapper/QuotesTransactionMapper.java" />
+        <option value="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/QuotesTransactionRes.java" />
+        <option value="$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/QuotesExchangeRes.java" />
+        <option value="$PROJECT_DIR$/fly-yun-consumer/src/main/java/cn/fly/yun/client/utils/Swagger2Config.java" />
+        <option value="$PROJECT_DIR$/fly-yun-consumer/src/main/resources/i18n/rop/error_zh_CN.properties" />
+        <option value="$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/service/impl/NewsInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/conf/WebConf.java" />
+        <option value="$PROJECT_DIR$/fly-yun-common/src/main/java/cn/fly/yun/utils/DateTimeUtils.java" />
+        <option value="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/interceptor/ControllerInterceptor.java" />
+        <option value="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/utils/DateTimeUtils.java" />
+        <option value="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/utils/ThreadLocalUtils.java" />
+        <option value="$PROJECT_DIR$/fly-yun-consumer/src/main/java/cn/fly/yun/client/utils/RedisConfig.java" />
+        <option value="$PROJECT_DIR$/fly-yun-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/exceptions/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/fly-yun-consumer/src/main/resources/application-dev.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/interceptor/HeaderInterceptor.java" />
+        <option value="$PROJECT_DIR$/fly-yun-consumer/src/main/java/cn/fly/yun/client/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/fly-yun-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/fly-yun-redis/src/main/java/cn/fly/yun/handle/RedisHandle.java" />
+        <option value="$PROJECT_DIR$/fly-yun-config/pom.xml" />
+        <option value="$PROJECT_DIR$/fly-yun-provider/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="fly-yun" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.fly.yun.client.utils" />
+      <recent name="cn.fly.yun.config.utils" />
+      <recent name="cn.fly.yun.config.interceptor" />
+      <recent name="cn.fly.yun.utils" />
+      <recent name="cn.fly.yun.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ wybb\trunk\admin\bitmc_dubbo\fly-yun\fly-yun-provider\src\main\resources\mapper" />
+      <recent name="D:\ wybb\trunk\admin\bitmc_dubbo\fly-yun\fly-yun-provider\src\main\java\cn\fly\yun\mapper" />
+      <recent name="D:\ wybb\trunk\admin\bitmc_dubbo\fly-yun\fly-yun-provider\src\main\java\cn\fly\yun\domain" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="svn" revision="915">D:\ wybb\trunk\admin\bitmc_dubbo\fly-yun\pom.xml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Client">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Client" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="fly-yun-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.fly.yun.client.refence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.fly.yun.client.refence.Client" />
+    </configuration>
+    <configuration name="Server" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="fly-yun-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.fly.yun.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.fly.yun.service.impl.Server" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.Server" />
+      <item itemvalue="Spring Boot.Client" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Client" />
+        <item itemvalue="Spring Boot.Server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\wangl\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\ wybb\trunk\admin\bitmc_dubbo\fly-yun" />
+          <option name="myCopyRoot" value="D:\ wybb\trunk\admin\bitmc_dubbo\fly-yun" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\ wybb\trunk\admin\bitmc_dubbo\fly-yun" />
+          <option name="myCopyRoot" value="D:\ wybb\trunk\admin\bitmc_dubbo\fly-yun" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8850f73-344a-4157-b369-da857eaf9475" name="Default" comment="" />
+      <created>1523414269572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1523414269572</updated>
+      <workItem from="1523414271081" duration="829000" />
+      <workItem from="1523415160062" duration="18492000" />
+      <workItem from="1523443308209" duration="10750000" />
+      <workItem from="1523496946594" duration="8226000" />
+      <workItem from="1523509584753" duration="13571000" />
+      <workItem from="1523531954304" duration="1199000" />
+      <workItem from="1523536765306" duration="979000" />
+      <workItem from="1523583251750" duration="9666000" />
+      <workItem from="1523596398264" duration="7988000" />
+    </task>
+    <task id="LOCAL-00001" summary="资讯列表">
+      <created>1523433036385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1523433036385</updated>
+    </task>
+    <task id="LOCAL-00002" summary="资讯 点赞  取消点赞">
+      <created>1523458082028</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1523458082028</updated>
+    </task>
+    <task id="LOCAL-00003" summary="资讯 查看详情">
+      <created>1523520685711</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523520685711</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="71700000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.32969153" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.5907859" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3292683" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.5311653" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.65582657" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27120823" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="资讯列表" />
+    <MESSAGE value="资讯 点赞  取消点赞" />
+    <MESSAGE value="资讯 查看详情" />
+    <option name="LAST_COMMIT_MESSAGE" value="资讯 查看详情" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/interceptor/HeaderInterceptor.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/interceptor/HeaderInterceptor.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="30" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fly-yun-provider/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-460">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/domain/NewsInfoExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/domain/NewsInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-provider/src/main/resources/mapper/QuotesExchangeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/QuotesTransactionReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/mapper/NewsInfoMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/GetDetailForNewsRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-943">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+            <element signature="e#1074#1075#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1220#1221#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1312#1313#0" expanded="true" />
+            <element signature="e#4236#4237#0" expanded="true" />
+            <element signature="e#4266#4267#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/domain/QuotesTransaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3404">
+          <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/QuotesTransactionRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5510#5511#0" expanded="true" />
+            <element signature="e#5537#5538#0" expanded="true" />
+            <element signature="e#5594#5595#0" expanded="true" />
+            <element signature="e#5626#5627#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/domain/QuotesExchangeRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2160">
+          <caret line="146" column="5" selection-start-line="146" selection-start-column="5" selection-end-line="146" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-api/src/main/java/cn/fly/yun/service/NewsInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-spi/2.6.1/springfox-spi-2.6.1.jar!/springfox/documentation/spi/DocumentationType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-161">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.6.1/springfox-core-2.6.1.jar!/springfox/documentation/builders/PathSelectors.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-common/src/main/java/cn/fly/yun/config/exceptions/BusinessException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="e#459#460#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/domain/QuotesTransactionExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#535#536#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/domain/QuotesExchangeExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/domain/QuotesExchange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/mapper/QuotesTransactionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/service/impl/NewsInfoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="196" column="52" lean-forward="true" selection-start-line="196" selection-start-column="52" selection-end-line="196" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-common/src/main/java/cn/fly/yun/base/TransLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-621">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/workSoftware/java/jdk8/jre/lib/rt.jar!/com/sun/xml/internal/ws/util/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1006#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-common/src/main/java/cn/fly/yun/utils/DateTimeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/mapper/QuotesExchangeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/interceptor/ControllerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-154">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.12.RELEASE/spring-core-4.3.12.RELEASE.jar!/org/springframework/util/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/utils/DateTimeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4076">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/utils/ThreadLocalUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-consumer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/8.5.23/tomcat-embed-core-8.5.23.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.23/tomcat-embed-websocket-8.5.23.jar!/org/apache/tomcat/websocket/server/WsFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.12.RELEASE/spring-webmvc-4.3.12.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="458" selection-start-line="458" selection-end-line="458" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/conf/WebConf.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="21" column="53" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-consumer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-consumer/src/main/resources/application-dev.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/exceptions/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-consumer/src/main/java/cn/fly/yun/client/controller/NewsInfoController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-provider/src/main/java/cn/fly/yun/conf/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-consumer/src/main/java/cn/fly/yun/client/utils/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-consumer/src/main/java/cn/fly/yun/client/utils/Swagger2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="34" column="25" lean-forward="true" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-config/src/main/java/cn/fly/yun/config/interceptor/HeaderInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-consumer/src/main/java/cn/fly/yun/client/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-consumer/src/main/java/cn/fly/yun/client/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-consumer/src/main/java/cn/fly/yun/client/refence/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-redis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.12.RELEASE/spring-context-4.3.12.RELEASE.jar!/org/springframework/context/annotation/CommonAnnotationBeanPostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-redis/src/main/java/cn/fly/yun/handle/RedisHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1679">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/parser/ParserConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="139" column="52" lean-forward="true" selection-start-line="139" selection-start-column="52" selection-end-line="139" selection-end-column="52" />
+          <folding>
+            <element signature="e#6102#6103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-redis/src/main/java/cn/fly/yun/config/RedisConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fly-yun-provider/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="51" column="18" selection-start-line="51" selection-start-column="18" selection-end-line="51" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>fly-yun-config</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

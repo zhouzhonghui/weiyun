@@ -1,0 +1,11 @@
+POST http://localhost:8081/api/newsInfo/quotesTransaction
+Accept: */*
+Cache-Control: no-cache
+Content-Type: application/json
+
+{}
+
+<> 2018-04-13T043116.200.json
+
+###
+

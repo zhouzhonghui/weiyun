@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fly-yun-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fly-yun-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fly-yun-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fly-yun-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fly-yun-database" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fly-yun-oauth2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fly-yun-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fly-yun-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/fly-yun-shiro" charset="UTF-8" />
+  </component>
+</project>
