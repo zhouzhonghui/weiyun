@@ -26,6 +26,39 @@ public class BaseReq extends BaseDomain {
      */
     private String requestTimestamp;
 
+    private String token;
+
+    private String redisMobile;
+
+    private Long memberId;
+
+    @Transient
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
+    @Transient
+    public String getRedisMobile() {
+        return redisMobile;
+    }
+
+    public void setRedisMobile(String redisMobile) {
+        this.redisMobile = redisMobile;
+    }
+
+    @Transient
+    public Long getMemberId() {
+        return memberId;
+    }
+
+    public void setMemberId(Long memberId) {
+        this.memberId = memberId;
+    }
+
     @Transient
     public String getSeq() {
         return seq;

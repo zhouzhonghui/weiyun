@@ -28,22 +28,22 @@ public class WebConf extends WebMvcConfigurerAdapter {
         registry.addInterceptor(localInterceptor()).excludePathPatterns("/swagger-resources/**").excludePathPatterns("/v2/**");
     }
 
-    /**
-     * 设置国际化资源信息
-     */
-    private void initMessageSource() {
+    @Bean
+    MessageSourceAccessor getMessageSourceAccessor() {
         HashSet<String> baseNamesSet = new HashSet();
         baseNamesSet.add(I18N_ROP_ERROR);//ROP自动的资源
-
-
         String[] totalBaseNames = baseNamesSet.toArray(new String[0]);
-
-//        if (logger.isInfoEnabled()) {
-//            logger.info("加载错误码国际化资源：{}", totalBaseNames);
-//        }
         ResourceBundleMessageSource bundleMessageSource = new ResourceBundleMessageSource();
         bundleMessageSource.setBasenames(totalBaseNames);
         MessageSourceAccessor messageSourceAccessor = new MessageSourceAccessor(bundleMessageSource);
+        return messageSourceAccessor;
+    }
+
+    /**
+     * 设置国际化资源信息
+     */
+    public void initMessageSource() {
+        MessageSourceAccessor messageSourceAccessor = getMessageSourceAccessor();
         MainErrors.setErrorMessageSourceAccessor(messageSourceAccessor);
         SubErrors.setErrorMessageSourceAccessor(messageSourceAccessor);
     }

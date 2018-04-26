@@ -37,6 +37,10 @@ public class ControllerInterceptor {
     public Object Interceptor(ProceedingJoinPoint point) throws Throwable {
         Object[] objects = point.getArgs();
         TransLog transLog = ThreadLocalUtils.getLocalTranslog();
+        MethodSignature methodSignature = (MethodSignature) point.getSignature();
+        String transName = methodSignature.getMethod().getDeclaredAnnotation(RequestMapping.class).name();
+
+
         for (Object o : objects) {
             if (o instanceof BaseReq) {
                 BaseReq baseReq = (BaseReq) o;
@@ -46,8 +50,7 @@ public class ControllerInterceptor {
         }
 
         Object result = point.proceed();
-        MethodSignature methodSignature = (MethodSignature) point.getSignature();
-        String transName = methodSignature.getMethod().getDeclaredAnnotation(RequestMapping.class).name();
+
 
         transLog.setResponseData(JSON.toJSONString(result));
         transLog.setTransName(transName);

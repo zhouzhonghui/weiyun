@@ -1,6 +1,7 @@
 package cn.fly.yun.config.interceptor;
 
 import cn.fly.yun.base.TransLog;
+import cn.fly.yun.config.exceptions.BusinessException;
 import cn.fly.yun.config.utils.DateTimeUtils;
 import cn.fly.yun.config.utils.ThreadLocalUtils;
 import cn.fly.yun.handle.RedisHandle;
@@ -71,12 +72,29 @@ public class HeaderInterceptor extends HandlerInterceptorAdapter {
 
     }
 
-    private TransLog initTransLog(HttpServletRequest request) {
+    private TransLog initTransLog(HttpServletRequest request) throws Exception{
         TransLog transLog = new TransLog();
         String ip = request.getRemoteAddr();
         String serviceName = request.getRequestURI();
+        String token = request.getHeader("wybb-token");
+        if (StringUtils.hasText(token)) {
+            String value = (String) redisHandle.get(token);
+            if (StringUtils.hasText(value)) {
+                String[] strArr = value.split("_");
+                if (2 == strArr.length) {
+                    transLog.setRedisMobile(strArr[0]);
+                    transLog.setMemberId(Long.parseLong(strArr[1]));
+                }
+            }
+        }
+
+        if(serviceName.indexOf("checkToken")>0 && !StringUtils.hasText(transLog.getRedisMobile())){
+            throw new BusinessException("member.is.not.login") ;
+        }
+
+
         String requestLocale = request.getHeader("locale");
-        if(StringUtils.hasText(requestLocale)){
+        if (StringUtils.hasText(requestLocale)) {
             ThreadLocalUtils.setLocalLanaguage(requestLocale);
         }
         String userAgent = request.getHeader("User-Agent");
@@ -98,6 +116,7 @@ public class HeaderInterceptor extends HandlerInterceptorAdapter {
         transLog.setRequestTimestamp(requestTimestamp);
         transLog.setRequestData(JSON.toJSONString(map));
         transLog.setSeq(seq);
+        transLog.setToken(token);
 
         return transLog;
     }

@@ -57,6 +57,35 @@ public class TransLog implements Serializable {
      */
     private String responseData;
 
+    private String token;
+
+    private String redisMobile;
+
+    private Long memberId;
+
+    public String getToken() {
+        return token;
+    }
+
+    public void setToken(String token) {
+        this.token = token;
+    }
+
+    public String getRedisMobile() {
+        return redisMobile;
+    }
+
+    public void setRedisMobile(String redisMobile) {
+        this.redisMobile = redisMobile;
+    }
+
+    public Long getMemberId() {
+        return memberId;
+    }
+
+    public void setMemberId(Long memberId) {
+        this.memberId = memberId;
+    }
 
     public String getSeq() {
         return seq;
