@@ -97,6 +97,8 @@ public class HeaderInterceptor extends HandlerInterceptorAdapter {
         if (StringUtils.hasText(requestLocale)) {
             ThreadLocalUtils.setLocalLanaguage(requestLocale);
         }
+        else
+            ThreadLocalUtils.setLocalLanaguage("china");
         String userAgent = request.getHeader("User-Agent");
         String appNameEn = request.getHeader("appNameEn");
         String idfa = request.getHeader("idfa");
